@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Bus Buddy</string>
+    <string name="title_home">Home</string>
+    <string name="title_tracker">Student Tracker</string>
+    <string name="title_driver">Driver Info</string>
+    <string name="title_logs">Logs</string>
+    <string name="title_arriving">Bus\n Arriving In</string>
+
+
+    <string name="button_track_kid">Track your kid</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="mongoAuth"><![CDATA[mongodb+srv://kevskillz:<password>@cluster0.ysqun.mongodb.net/myFirstDatabase?retryWrites=true&w=majority]]></string>
+    <string name="school_district">School District</string>
+    <string name="email">Email</string>
+    <string name="title_log_in">Log In</string>
+    <string name="title_user_info">Student Information</string>
+    <string name="not_logged_in">Not Logged In!</string>
+    <string name="not_logged_in_home">Not\n Logged In!</string>
+    <string name="title_alert">Alert</string>
+
+
+</resources>

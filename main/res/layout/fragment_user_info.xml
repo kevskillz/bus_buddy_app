@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <TableLayout
+        android:id="@+id/table_user_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TableRow
+            android:background="@color/track_kid_mins_away_driver_info_bg"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Name" />
+
+            <TextView
+                android:id="@+id/name_user_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </TableRow>
+
+        <TableRow android:background="@color/track_kid_mins_away_driver_info_bg" android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/school_tag"
+                 />
+
+            <TextView
+                android:id="@+id/school_user_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </TableRow>
+
+        <TableRow android:background="@color/track_kid_mins_away_driver_info_bg" android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="AM Bus" />
+
+            <TextView
+                android:id="@+id/am_bus_user_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </TableRow>
+
+        <TableRow android:background="@color/track_kid_mins_away_driver_info_bg" android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="PM Bus" />
+
+            <TextView
+                android:id="@+id/pm_bus_user_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/button_home"
+
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/table_user_info"
+        android:layout_marginTop="68dp"
+        android:text="Home"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button_log_out"
+
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_home"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:text="Log Out"
+        android:textSize="24sp" />
+</RelativeLayout>

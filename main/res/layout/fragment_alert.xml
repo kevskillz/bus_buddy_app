@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <TextView
+        android:id="@+id/alert_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alert 📢"
+        android:layout_centerHorizontal="true"
+        android:textSize="60dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/text_feedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_send_alert"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+
+        android:textSize="25sp"
+        android:textColor="@color/black"/>
+
+    <Spinner
+        android:id="@+id/dropdown_am_pm"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dropdown"
+        android:layout_below="@+id/text_alert"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:spinnerMode="dropdown"/>
+
+
+    <EditText
+        android:id="@+id/text_alert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/alert_title"
+        android:hint="Type alert here"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="20dp"
+
+
+        android:ems="15"
+
+        android:gravity="start|top"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/button_send_alert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dropdown_am_pm"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="Send Alert"
+        android:textSize="24dp" />
+
+    <TableLayout
+        android:id="@+id/table_messages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+    </TableLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/button_sync_alerts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_below="@id/table_messages"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@android:drawable/ic_popup_sync"
+        android:focusable="true" />
+
+
+</RelativeLayout>

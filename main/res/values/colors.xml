@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background">#FFDDB135</color>
+    <color name="red">#FFCA0E0E</color>
+    <color name="nav_menu_bg">#FFC74C34</color>
+    <color name="bus_circle_bg">#FFE7C73A</color>
+    <color name="main">#FFE7C73A</color>
+    <color name="bus_circle_outer_and_text">#FF9B8E30</color>
+    <color name="track_kid_mins_away_driver_info_bg">#FFEDDB8E</color>
+    <color name="log_in_bg">#FF4BA44E</color>
+    <color name="log_header">#FF2C2C2C</color>
+    <color name="log_datapoint">#FFEDDB8E</color>
+    <color name="log_text">#FFACACAC</color>
+</resources>

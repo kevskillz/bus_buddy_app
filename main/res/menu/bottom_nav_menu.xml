@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menu">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home"
+        />
+
+    <item
+        android:id="@+id/navigation_tracker"
+        android:icon="@android:drawable/ic_dialog_map"
+        android:title="@string/title_tracker">
+    </item>
+
+    <item
+        android:id="@+id/navigation_bus_driver_info"
+        android:icon="@drawable/ic_baseline_import_contacts_24"
+        android:title="@string/title_driver" />
+
+    <item
+        android:id="@+id/navigation_logs"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_logs" />
+
+
+</menu>
